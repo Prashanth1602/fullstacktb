@@ -5,46 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prashanth Careers</title>
 </head>
+<style>
+    body{
+  height: 100%;
+}
+.parallax {
+  background-image: url("parallex.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 <body>
-    <header style="background-color: blue;">
+    <header style="background-color: blue; font-family: 'Times New Roman', Times, serif; color: white; text-align: center;">
         <h1>Careers at Prashanth</h1>
-        <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden;">
-    <l style="float: left;">
-        <a href="#" style="display: block; text-align: center; padding: 14px 16px; text-decoration: none;">Home</a>
-    </l
-    <l style="float: left;
-        <a href="#" style="display: block; text-align: center; padding: 14px 16px; text-decoration: none;">Jobs</a>
-    </l
-    <l style="float: left;
-        <a href="#" style="display: block; text-align: center; padding: 14px 16px; text-decoration: none;">Upload Resume</a>
-    </l
-    <li style="float: left;
-        <a href="#" style="display: block; text-align: center; padding: 14px 16px; text-decoration: none;">Contact Us</a>
-    </li>
-</ul>
+        <p>Demo Navbar</p>
     </header>
+    <div class="parallax">
     <hr>
+    <div style="background-color: aqua;">
     <marquee>We are hiring for various positions</marquee>
+    </div>
     <hr>
+    <div style="background-color: aqua;">
     <h2>Upload Your Resume</h2>
     <label for="Resume">select your Resume</label>
     <br><br>
     <input type="file">
     <h3>Upload progress:</h3>
     <progress value="50" max="100"></progress>
+    </div>
     <hr>
+    <div style="background-color: aqua;">
     <b>subject</b>
     <details>
         <summary>Details</summary>
         <p>We are looking for candidates with a strong background in software development, data science, and machine learning.</p>
     </details>
     <hr>
+    </div>
+    <div style="background-color: aqua;">
     <label>Skill Match:</label>
     <progress value="50" max="100"></progress>
+    </div>
     <hr>
     <h4>Questions?</h4>
     <a href="www.google.com">Email HR</a>
     <hr>
+    <div style="border: 2; border-style: solid; border-color: rgb(217, 6, 6); padding: 20px; width: 50%; margin: auto; background-color: #f0f0f0;">
+        <h1>Event Registration</h1>
+        <p>Welcome to the event registration page. Please select a category to proceed.</p>
+    <select id="event-select">
+        <option value="selected hidden">Select category</option>
+        <option value="event1">session 1</option>
+        <option value="event2">session 2</option>
+        <option value="event3">session 3</option>
+        </select>
+        <br>
+<hr>
+    <label for="session-mode">Session-Mode</label>
+    <input type="radio" id="online" name="session-mode" value="online">
+    <LaBeL for="online">Online</LaBeL>
+    <input type="radio" id="offline" name="session-mode" value="offline>
+    <label for="offline">offline</label>
+        <br><br>
+        <hr>
+        <label for="courses">Courses</label>
+            <input type="checkbox" value="course1">AIML</input>
+            <input value="course2" type="checkbox">DS</input>
+            <input value="course3" type="checkbox">FullStack</input>
+    </div>
+     <div style="border: 2; border-style: solid; border-color: rgb(217, 6, 6); padding: 20px; width: 50%; margin: auto; background-color: #f0f0f0;">
+    <h1 align="center">Student Details</h1>
+    <table border="2" cellpadding="10" cellspacing="0" style="border-collapse: collapse;" align="center">
+        <tr>
+            <th>name</th>
+            <th>roll no</th>
+            <th>marks</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>101</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>102</td>
+            <td>90</td>
+        </tr>
+    </table>
+    </div>
+</div>
     <footer style="background-color: red;">
         <p>&copy; 2023 Prashanth Careers. All rights reserved.</p>
         <p>&reg</p>
